@@ -56,7 +56,8 @@
     "dev-server": "webpack serve --open",
     "test": "jest --config=jest.config.json",
     "test-watch": "jest --watchAll --runInBand --config=jest.config.json",
-    "heroku-postbuild": "npm run build:prod"
+    "vercel build": "npm run build:prod"
+    
   },
   "description": ""
 }
