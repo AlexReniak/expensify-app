@@ -10,6 +10,8 @@ import 'react-dates/initialize'
 
 const store = configureStore()
 
+console.log(store.getState());
+
 const Jsx = () => (
     <Provider store={store}>
         <AppRouter />

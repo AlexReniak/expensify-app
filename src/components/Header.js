@@ -1,11 +1,13 @@
 import React from "react";
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Header = () => (
-    <header>
-        <h1>Expensify</h1>
-        <NavLink to="/" className={({ isActive }) => (isActive ? "is-active" : undefined)}>Home</NavLink>
-        <NavLink to="/create" className={({ isActive }) => (isActive ? "is-active" : undefined)}>Create</NavLink>
+    <header className="header">
+        <div className="content-container">
+            <Link className="header-title" to="/">
+                <h1>Expensify</h1>
+            </Link>
+        </div>
     </header>
 )
 

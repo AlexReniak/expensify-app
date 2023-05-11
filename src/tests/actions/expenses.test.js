@@ -9,7 +9,6 @@ test('should setup removeExpense action object', () => {
 })
 
 test('should test editExpense action', () => {
-
     const updates = {
         description: 'hello world'
     }

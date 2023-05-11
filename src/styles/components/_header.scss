@@ -1,0 +1,13 @@
+.header {
+    background: $light-green;
+    padding: $s-size 0;
+}
+
+.header-title {
+    color: white;
+    text-decoration: none;
+
+    h1 {
+        margin: 0;
+    }
+}
